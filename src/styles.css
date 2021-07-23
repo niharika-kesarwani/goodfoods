@@ -1,4 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+
+:root {
+  --buttonColor: #e5e7eb;
+}
+
 .App {
   font-family: sans-serif;
-  text-align: center;
+  background-color: --buttonColor;
+}
+
+div {
+  max-width: 600px;
+  margin: auto;
+  font-family: "Work Sans", sans-serif;
+}
+
+.cuisineButton {
+  margin: 3rem 2rem 1rem 0rem;
+  background-color: --buttonColor;
+  align-items: flex-end;
+  height: 2rem;
+  width: 4rem;
+  border-color: black;
+  border-radius: 0.5rem;
+  width: 5rem;
+  cursor: pointer;
+}
+
+.block {
+  border: 1px solid gray;
+  max-width: 400px;
+  height: 70px;
+  margin: 1.5rem 1rem 1rem 0rem;
+  vertical-align: center;
+  border-radius: 0.5rem;
+}
+
+.details {
+  padding: 1rem 0rem 1rem 1rem;
+}
+
+.name {
+  font-weight: bold;
+  font-size: large;
+}
+
+.rate {
+  font-size: medium;
 }
