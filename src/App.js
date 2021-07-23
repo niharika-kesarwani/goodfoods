@@ -40,7 +40,7 @@ export default function App() {
   var [name1, setName1] = useState(indian[0]["name"]);
   var [rate1, setRate1] = useState(indian[0]["rate"]);
   var [name2, setName2] = useState(indian[1]["name"]);
-  var [rate2, setRate2] = useState(indian[0]["rate"]);
+  var [rate2, setRate2] = useState(indian[1]["rate"]);
 
   function clickHandler(index) {
     setName1(foodList[index][0]["name"]);
