@@ -1,2 +1,2 @@
 # goodfoods
-Created with CodeSandbox
+An application to see various suboptions on food when clicking on a particluar food.
