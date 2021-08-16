@@ -29,8 +29,8 @@ div {
 
 .block {
   border: 1px solid gray;
-  max-width: 400px;
-  height: 70px;
+  max-width: 500px;
+  height: 115px;
   margin: 1.5rem 1rem 1rem 0rem;
   vertical-align: center;
   border-radius: 0.5rem;
@@ -43,6 +43,11 @@ div {
 .name {
   font-weight: bold;
   font-size: large;
+}
+
+.desc {
+  font-size: small;
+  margin: 0.5rem 0rem;
 }
 
 .rate {
